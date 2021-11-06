@@ -9,7 +9,11 @@ function App() {
           <Intro />
           <p className="info text-center mt-3">
             Project created using react and it is an{" "}
-            <a href="https://github.com/Tumaini8/intro-component" rel="noreferrer" target="_blank">
+            <a
+              href="https://github.com/Tumaini8/intro-component"
+              rel="noreferrer"
+              target="_blank"
+            >
               open-source from GITHUB
             </a>
           </p>
