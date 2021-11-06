@@ -1,10 +1,10 @@
 import React from "react";
 import SignUp from "./SignUp.js";
+import "./Intro.css";
 
 export default function Intro() {
   return (
     <div className="Intro">
-      <h6 className="border border-primary">Try it free 7days</h6>
       <div className="row">
         <div className="col-6">
           <p>
@@ -24,6 +24,7 @@ export default function Intro() {
         </div>
         <div className="col-6">
           <section>
+            <h6 className="border border-primary">Try it free 7days</h6>
             <SignUp />
           </section>
         </div>

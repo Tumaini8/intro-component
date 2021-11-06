@@ -1,0 +1,27 @@
+.Intro .border {
+  padding: 5px;
+  max-width: 69%;
+  background: blueviolet;
+  cursor: pointer;
+}
+.Intro h6 {
+  text-align: center;
+}
+.Intro p {
+  margin: 60px;
+  line-height: 1.5;
+  font-size: 26px;
+}
+@media (max-width: 960px) {
+  .Intro .border {
+    padding: 5px;
+    max-width: 56%;
+  }
+}
+.Intro section {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 30px;
+  margin: 10px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
