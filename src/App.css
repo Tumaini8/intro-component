@@ -6,3 +6,8 @@
   padding: 40px;
   background: rgb(167, 248, 248);
 }
+@media(max-width: 960px){
+  .App p{
+    font-size: 10px;
+  }
+}

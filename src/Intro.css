@@ -15,8 +15,14 @@
 @media (max-width: 960px) {
   .Intro .border {
     padding: 5px;
-    max-width: 56%;
+  font-size: 12px;
+  
   }
+  .Intro p{
+    font-size: 17px;
+    margin: 0;
+  }
+
 }
 .Intro section {
   background: white;

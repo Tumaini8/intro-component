@@ -14,3 +14,17 @@
     margin: 9px;
     padding: 0;
 }
+@media (max-width: 960px) {
+  .SignUp input{
+ padding: 7px;
+ width: 90%;
+  }
+  .SignUp .btn{
+    font-size: 12px;
+    padding: 8px;
+    width: 90%;
+  }
+  .SignUp .info{
+    font-size: 10px;
+  }
+}

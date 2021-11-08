@@ -6,23 +6,14 @@ export default function Intro() {
   return (
     <div className="Intro">
       <div className="row">
-        <div className="col-6">
+        <div className="col-md-6">
           <p>
-            Learn to code by
-            <br />
-            watching others
-            <br />
-            see how experienced developers
-            <br />
-            solve problems in real-time.
-            <br />
-            Watching scripted tutorial is <br />
-            great but understanding how
-            <br />
-            developes think is invaluable
+            Learn to code by watching others see how experienced developers
+            solve problems in real-time. Watching scripted tutorial is <br />
+            great but understanding how developes think is invaluable
           </p>
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <section>
             <h6 className="border border-primary">Try it free 7days</h6>
             <SignUp />
